@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SelectContacts</string>
+    <string name="show_all_contacts">Show All Contacts</string>
+    <string name="back">Back</string>
+    <string name="access_the_call_log">Access The Call Log</string>
+    <string name="access_media_store">Access Media Store</string>
+    <string name="access_bookmarks">Access Bookmarks</string>
+    <string name="show_message">SHOW message</string>
+</resources>
