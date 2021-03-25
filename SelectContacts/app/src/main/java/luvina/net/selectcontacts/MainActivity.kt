@@ -85,21 +85,16 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         Log.e("time: ", str.toString())
     }
     private fun accessMediaLog(){
-//        var cursor:Cursor = contentResolver.query(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, null, null, null, null)!!
-//        cursor.moveToFirst()
-//        var str:StringBuilder = StringBuilder()
-//        while (!cursor.isAfterLast){
-//            str.append(cursor.getString(cursor.getColumnIndex(MediaStore.MediaColumns.DISPLAY_NAME)))
-//            str.append("\n")
-//            cursor.moveToNext()
-//        }
-//        cursor.close()
-//        Toast.makeText(this, str, Toast.LENGTH_LONG).show()
-//        Log.e("time: ", str.toString())
-
-        val photoPickerIntent = Intent(Intent.ACTION_PICK)
-        photoPickerIntent.type = "image/*"
-        startActivityForResult(photoPickerIntent, 1)
+        var cursor:Cursor = contentResolver.query(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, null, null, null, null)!!
+        cursor.moveToFirst()
+        var str:StringBuilder = StringBuilder()
+        while (!cursor.isAfterLast){
+            str.append(cursor.getString(cursor.getColumnIndex(MediaStore.MediaColumns.DISPLAY_NAME)))
+            str.append("\n")
+            cursor.moveToNext()
+        }
+        cursor.close()
+        Toast.makeText(this, str, Toast.LENGTH_LONG).show()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
