@@ -149,6 +149,5 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         }
         cursor.close()
         Toast.makeText(this, str, Toast.LENGTH_LONG).show()
-        Log.e("time: ", str.toString())
     }
 }
