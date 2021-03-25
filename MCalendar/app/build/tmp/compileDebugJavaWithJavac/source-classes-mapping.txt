@@ -1,0 +1,2 @@
+luvina/net/mcalendar/BuildConfig.java
+ luvina.net.mcalendar.BuildConfig

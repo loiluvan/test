@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="luvina.net.mcalendar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:5:5-60
+11-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:5:19-57
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:6:5-67
+13-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:7:5-79
+14-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:8:5-81
+15-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:9:5-80
+16-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:9:22-77
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:11:5-54:19
+26        android:name="androidx.multidex.MultiDexApplication"
+27        android:allowBackup="true"
+27-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:12:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.3.2] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\5724419690274871c2fb5f6254f4f3e7\core-1.3.2\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_app"
+30-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:13:9-38
+31        android:label="@string/app_name"
+31-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:14:9-41
+32        android:requestLegacyExternalStorage="true"
+32-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:18:9-52
+33        android:roundIcon="@mipmap/ic_app_round"
+33-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:15:9-49
+34        android:supportsRtl="true"
+34-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:16:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.MCalendar" >
+36-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:17:9-47
+37        <meta-data
+37-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:21:9-23:51
+38            android:name="com.google.android.geo.API_KEY"
+38-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:22:13-58
+39            android:value="@string/key_map_api" />
+39-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:23:13-48
+40
+41        <activity
+41-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:25:9-33:20
+42            android:name="luvina.net.mcalendar.activities.SplashScreenActivity"
+42-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:26:13-60
+43            android:screenOrientation="portrait" >
+43-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:27:13-49
+44            <intent-filter>
+44-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:28:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:29:17-69
+45-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:31:17-77
+47-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:31:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:34:9-37:52
+51            android:name="luvina.net.mcalendar.activities.HomeActivity"
+51-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:35:13-52
+52            android:label="@string/memo_calendar"
+52-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:36:13-50
+53            android:screenOrientation="portrait" />
+53-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:37:13-49
+54        <activity
+54-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:38:9-40:52
+55            android:name="luvina.net.mcalendar.activities.AddEventActivity"
+55-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:39:13-56
+56            android:screenOrientation="portrait" />
+56-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:40:13-49
+57        <activity
+57-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:41:9-42:51
+58            android:name="luvina.net.mcalendar.activities.AboutAppActivity"
+58-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:41:19-62
+59            android:screenOrientation="portrait" />
+59-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:42:13-49
+60
+61        <receiver android:name="luvina.net.mcalendar.broadcastreceiver.MCalendarBroadcastReceiver" />
+61-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:43:9-82
+61-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:43:19-79
+62
+63        <provider
+63-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:44:9-52:20
+64            android:name="androidx.core.content.FileProvider"
+64-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:45:13-62
+65            android:authorities="luvina.net.mcalendar.fileprovider"
+65-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:46:13-68
+66            android:exported="false"
+66-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:48:13-37
+67            android:grantUriPermissions="true" >
+67-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:47:13-47
+68            <meta-data
+68-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:49:13-51:57
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:50:17-67
+70                android:resource="@xml/provider_paths" />
+70-->C:\Users\luvanloi\Downloads\MCalendar\app\src\main\AndroidManifest.xml:51:17-55
+71        </provider>
+72
+73        <!-- Needs to be explicitly declared on P+ -->
+74        <uses-library
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+75            android:name="org.apache.http.legacy"
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+76            android:required="false" />
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\b6792fcafd77b50ccb7be884368d7c00\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\6d9edd90c96180fbe6b324475dde24dd\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\6d9edd90c96180fbe6b324475dde24dd\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\6d9edd90c96180fbe6b324475dde24dd\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\6d9edd90c96180fbe6b324475dde24dd\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\bef18224a8ccff90457309e5e510100e\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\bef18224a8ccff90457309e5e510100e\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\luvanloi\.gradle\caches\transforms-2\files-2.1\bef18224a8ccff90457309e5e510100e\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+86    </application>
+87
+88</manifest>

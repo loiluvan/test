@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.baidu.mapapi:map:3.7.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c269a6186a7c7f917c0ac6a3a9451b9/jetified-map-3.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09b6c515a807cf60561959a30d31c0fc/jetified-map-3.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09b6c515a807cf60561959a30d31c0fc/jetified-map-3.7.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09b6c515a807cf60561959a30d31c0fc/jetified-map-3.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bab37c2c4519b1c1e57a1f6e0cc5a7b9/jetified-map-3.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bab37c2c4519b1c1e57a1f6e0cc5a7b9/jetified-map-3.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bab37c2c4519b1c1e57a1f6e0cc5a7b9/jetified-map-3.7.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
