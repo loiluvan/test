@@ -82,7 +82,6 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
         cursor.close()
        Toast.makeText(this, str, Toast.LENGTH_LONG).show()
-        Log.e("time: ", str.toString())
     }
     private fun accessMediaLog(){
         var cursor:Cursor = contentResolver.query(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, null, null, null, null)!!
